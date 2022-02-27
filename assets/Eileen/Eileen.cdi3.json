@@ -1,0 +1,17 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "Param",
+			"GroupId": "",
+			"Name": "左摇头"
+		},
+		{
+			"Id": "Param2",
+			"GroupId": "",
+			"Name": "右摇头"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": []
+}
