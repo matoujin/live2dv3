@@ -1871,9 +1871,11 @@
   }
   const VERSION = '1.2.2'
   let _a
+  
   if (navigator.userAgent.toLowerCase().indexOf('chrome') > -1) {
+  //修改
     const args = [
-      '\n\n       %c %c %c \u2730 Live2dV3 ' + VERSION + ' \u2730  %c  \n%c  https://github.com/HCLonely/Live2dV3  %c\n\n',
+      '\n\n       %c %c %c \u2730 Live2dV3 ' + VERSION + ' \u2730  %c  \n%c  https://github.com/matoujin/live2dv3  %c\n\n',
       'background: #ff66a5; padding:5px 0;',
       'background: #ff66a5; padding:5px 0;',
       'color: #ff66a5; background: #030307; padding:5px 0;',
@@ -1882,7 +1884,7 @@
       'background: #ff66a5; padding:5px 0;'];
     (_a = window.console).log.apply(_a, args)
   } else if (window.console) {
-    window.console.log('Live2dV3 ' + VERSION + ' - https://github.com/HCLonely/Live2dV3')
+    window.console.log('Live2dV3 ' + VERSION + ' - https://github.com/matoujin/live2dv3')
   }
 
   window.l2dViewer = function (options) {
