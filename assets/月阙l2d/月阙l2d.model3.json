@@ -1,0 +1,18 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "月阙l2d.moc3",
+		"Textures": [
+			"月阙l2d.1024/texture_00.png"
+		],
+		"Physics": "月阙l2d.physics3.json",
+		"DisplayInfo": "月阙l2d.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
