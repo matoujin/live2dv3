@@ -1,0 +1,30 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Eileen.moc3",
+		"Textures": [
+			"Eileen.2048/texture_00.png"
+		],
+		"DisplayInfo": "Eileen.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "Eileen.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
